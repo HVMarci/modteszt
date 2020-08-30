@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"I I",
+		"III",
+		"III"
+	],
+	"key": {
+		"I": {
+			"item": "modteszt:example_item"
+		}
+	},
+	"result": {
+		"item": "modteszt:example_chestplate"
+	}
+}

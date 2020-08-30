@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "modteszt:blocks/example_block",
+        "top": "modteszt:blocks/example_block",
+        "side": "modteszt:blocks/example_block"
+    }
+}

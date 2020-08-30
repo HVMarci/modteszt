@@ -1,0 +1,6 @@
+{
+    "parent": "block/button",
+    "textures": {
+        "texture": "modteszt:blocks/example_block"
+    }
+}

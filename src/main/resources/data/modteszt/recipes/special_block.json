@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" p ",
+		"iii",
+		"III"
+	],
+	"key": {
+		"I": {
+			"item": "minecraft:stone"
+		},
+		"i": {
+			"item": "minecraft:oak_planks"
+		},
+		"p": {
+			"item": "modteszt:example_item"
+		}
+	},
+	"result": {
+		"item": "modteszt:special_block"
+	}
+}

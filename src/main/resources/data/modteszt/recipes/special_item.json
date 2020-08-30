@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"IiI",
+		"III"
+	],
+	"key": {
+		"I": {
+			"item": "minecraft:diamond"
+		},
+		"i": {
+			"item": "modteszt:example_item"
+		}
+	},
+	"result": {
+		"item": "modteszt:special_item"
+	}
+}

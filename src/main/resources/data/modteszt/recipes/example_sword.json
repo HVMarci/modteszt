@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"I",
+		"I",
+		"i"
+	],
+	"key": {
+		"I": {
+			"item": "modteszt:example_item"
+		},
+		"i": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "modteszt:example_sword"
+	}
+}

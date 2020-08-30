@@ -1,0 +1,29 @@
+{
+
+	"item.modteszt.example_ingot": "Példa Akármi",
+	"itemGroup.modteszt": "Modtesztes cuccok",
+	"item.modteszt.example_item": "Példa Dolog",
+	"block.modteszt.example_block": "Példa Block",
+	"item.modteszt.hamburger": "Hamburger",
+	
+	"item.modteszt.example_sword": "Példa Kard",
+	"item.modteszt.example_shovel": "Példa Ásó",
+	"item.modteszt.example_hoe": "Példa Kapa",
+	"item.modteszt.example_pickaxe": "Példa Csákány",
+	"item.modteszt.example_axe": "Példa Balta",
+	
+	"item.modteszt.special_item": "Naon OP item",
+	"block.modteszt.special_block": "Villám Tűzhely",
+	"item.modteszt.example_fuel": "Példa Tüzelőanyag",
+	"block.modteszt.quarry": "Fúrógép",
+	
+	"item.modteszt.example_helmet": "Példa Sisak",
+	"item.modteszt.example_chestplate": "Példa Zubbony",
+	"item.modteszt.example_leggings": "Példa Lábszárvédő",
+	"item.modteszt.example_boots": "Példa Csizma",
+	
+	"block.modteszt.example_stairs": "Példa Lépcső",
+	"block.modteszt.example_wood_button": "Példa Gomb",
+	"block.modteszt.example_fence": "Példa Kerítés"
+	
+}

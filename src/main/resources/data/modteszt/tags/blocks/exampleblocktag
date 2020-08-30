@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"modteszt:example_block",
+		"minecraft:cactus"
+	]
+}
