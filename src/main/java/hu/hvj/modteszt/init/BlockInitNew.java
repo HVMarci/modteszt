@@ -17,7 +17,7 @@ public class BlockInitNew {
 
 	public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, ModTeszteles.MODID);
 	
-	//public static final RegistryObject<Block> DEF_BLOCK = BLOCKS.register("def_block", () -> new Block(Block.Properties.create(Material.IRON)));
+	public static final RegistryObject<Block> DEF_BLOCK = BLOCKS.register("def_block", () -> new Block(Block.Properties.create(Material.IRON)));
 	public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(Block.Properties.create(Material.TNT).hardnessAndResistance(0.5f, 15.0f).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL).jumpFactor(200).speedFactor(200)));
 	public static final RegistryObject<Block> EXAMPLE_STAIRS = BLOCKS.register("example_stairs", () -> new StairsBlock(() -> BlockInitNew.EXAMPLE_BLOCK.get().getDefaultState(), Block.Properties.create(Material.TNT)));
 	public static final RegistryObject<Block> EXAMPLE_FENCE = BLOCKS.register("example_fence", () -> new FenceBlock(Block.Properties.create(Material.TNT, MaterialColor.GOLD)));

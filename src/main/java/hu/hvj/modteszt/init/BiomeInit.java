@@ -24,17 +24,17 @@ public class BiomeInit {
 			() -> new ExampleBiome(new Biome.Builder().precipitation(RainType.SNOW).scale(2.0f).temperature(0.5f)
 					.waterColor(12345678).waterFogColor(16253425)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT,
-							new SurfaceBuilderConfig(BlockInitNew.EXAMPLE_FENCE.get().getDefaultState(),
-									Blocks.ANVIL.getDefaultState(), Blocks.END_STONE.getDefaultState()))
+							new SurfaceBuilderConfig(BlockInitNew.EXAMPLE_BLOCK.get().getDefaultState(),
+									BlockInitNew.DEF_BLOCK.get().getDefaultState(), Blocks.STONE.getDefaultState()))
 					.category(Category.PLAINS).downfall(1.0f).depth(0.2f).parent(null)));
 	
 	public static void registerBiomes() {
-		registerBiome(EXAMPLE_BIOME.get(), Type.PLAINS, Type.OVERWORLD);
+		registerBiome(EXAMPLE_BIOME.get(), Type.PLAINS, Type.NETHER);
 	}
 	
 	private static void registerBiome(Biome biome, Type... types) {
 		BiomeDictionary.addTypes(biome, types);
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(biome, 100));
+		//BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(biome, 100));
 	}
 }

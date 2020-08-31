@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import hu.hvj.modteszt.init.BiomeInit;
 import hu.hvj.modteszt.init.BlockInit;
 import hu.hvj.modteszt.init.BlockInitNew;
+import hu.hvj.modteszt.init.DimensionInit;
 import hu.hvj.modteszt.init.ItemInitNew;
 import hu.hvj.modteszt.init.ModItemGroups;
 import hu.hvj.modteszt.init.ModTileEntityTypes;
@@ -14,6 +15,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -36,6 +38,7 @@ public class ModTeszteles
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final String MODID = "modteszt";
 	public static ModTeszteles instance;
+	public static final ResourceLocation EXAMPLE_DIM_TYPE = new ResourceLocation(MODID, "example");
 	
 	public ModTeszteles()
 	{
@@ -47,6 +50,7 @@ public class ModTeszteles
 		BlockInitNew.BLOCKS.register(modEventBus);
 		ModTileEntityTypes.TILE_ENTITY_TYPES.register(modEventBus);
 		BiomeInit.BIOMES.register(modEventBus);
+		DimensionInit.MOD_DIMENSIONS.register(modEventBus);
 		
 		instance = this;
 		MinecraftForge.EVENT_BUS.register(this);

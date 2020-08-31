@@ -15,7 +15,9 @@ public class ExampleBiome extends Biome {
 
 	public ExampleBiome(Builder biomeBuilder) {
 		super(biomeBuilder);
-		this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.ARROW, 20, 10, 20));
+		this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SHEEP, 20, 10, 20));
+		this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.COW, 20, 10, 20));
+		this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.HORSE, 20, 10, 20));
 		this.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(WorldCarver.CANYON, new ProbabilityConfig(0.04F)));
 		this.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(WorldCarver.CAVE, new ProbabilityConfig(0.142F)));
 		DefaultBiomeFeatures.addEndCity(this);
